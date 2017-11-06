@@ -1,0 +1,421 @@
+body {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+@font-face {
+    font-family: 'Novecentosanswide-Normal';
+    src: url('Novecentosanswide-Normal-webfont.woff2') format('woff2'),
+         url('Novecentosanswide-Normal-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Novecentosanswide-Light';
+    src: url('Novecentosanswide-Light-webfont.woff2') format('woff2'),
+         url('Novecentosanswide-Light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+hr{
+  color: black;
+}
+.projectImg{
+  width: 70%;
+  height: auto;
+  padding-top: 30px;
+}
+.KronoxPhoto{
+  width: 30%;
+  height: auto;
+  border-radius: 10px;
+}
+.projectBtn{
+  background: rgba(255,255,255,0.2);
+  border: solid black;
+  font-family: 'Novecentosanswide-Normal';
+  font-size: 20px;
+  padding: 15px 40px 15px 40px;
+}
+.onePlantBtn,
+.roBtn,
+.kronoxBtn{
+  color: black;
+  border: solid black;
+}
+.projectBtn:hover{
+  background-color: rgb(200,200,200);
+  color: white;
+}
+.background-ring{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  margin-left: -15px;
+  visibility: hidden;
+}
+.hideme{
+  opacity: 0;
+}
+.nav-header{
+  text-align: center;
+  font-weight: 400;
+  padding-top: 4px;
+  color: white;
+  font-family: 'Novecentosanswide-Normal';
+  display: none;
+}
+.siteCont{
+  position: relative;
+  top: 48em;
+  height: auto;
+  border-bottom: solid black;
+  border-width: 1px;
+}
+.aboutMe{
+
+  background: black;
+  border-bottom: solid black;
+  border-width: 1px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.mainSkill,
+.projects,
+.project2
+ {
+
+  /*background:  #FFFFFF; /* fallback for old browsers */
+  /*background: -webkit-linear-gradient(140deg,#FFFFFF, #cdcdcd); /* Chrome 10-25, Safari 5.1-6 */
+  /*background: linear-gradient(140deg, #FFFFFF, #cdcdcd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: black;
+  border-bottom: solid black;
+  border-width: 0px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+
+}
+.onePlantBI{
+  /*background-image: url("../Images/plants1.jpg");*/
+  background: white;
+  background-size: auto 100%;
+}
+.roBI{
+  /*background-image: url("../Images/ro1.jpg");*/
+  background: white;
+  background-size: auto 100%;
+}
+.kronoxBI{
+  /*background-image: url("../Images/kronox1.jpg");*/
+  background: white;
+  background-size: auto 100%;
+}
+.emptyCont{
+  position: fixed;
+  width: 100%;
+  height: 45em;
+  top: 3vw;
+  /*background: #36ac90; /* fallback for old browsers */
+  /*background: -webkit-radial-gradient(circle, #017ad0 40%,#000000 ,#000000); /* Chrome 10-25, Safari 5.1-6 */
+  /*background: radial-gradient(circle, #017ad0 ,#000000 40%, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url("../Images/background4.jpg");
+  background-size: 100% auto;
+  background-position: center;
+  z-index: -1000;
+  /*-webkit-filter: blur(7px); /* Safari 6.0 - 9.0 
+  filter: blur(7px);*/
+
+}
+.contact{
+  background: #36ac90; /* fallback for old browsers */
+  background: -webkit-linear-gradient(140deg, #838383 ,#505050); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(140deg, #838383, #505050); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.contactLogo{
+  font-size: 10em;
+  color: white;
+  text-align: center;
+}
+p{
+  font-family: 'Novecentosanswide-Light', sans-serif;
+}
+#header-1, #header-2{
+  text-align: center;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#header-1{
+  font-size: 9em;
+  top: 1.5em;
+  font-family: 'Novecentosanswide-Light', sans-serif;
+  /*font-weight: 200;*/
+}
+#header-2{
+  font-size: 1.9em;
+  font-weight: 400;
+  left: 0px;
+  right: -99px;
+  color: #DCDCDC;
+  top: 12.5em;
+  font-family: 'Novecentosanswide-Normal', sans-serif;
+}
+
+.logo{
+  visibility: hidden;
+  position: fixed;
+  height: 7em;
+  width: 7em;
+  z-index: 100;
+  left: 20px;
+  top: 20px;
+
+}
+
+.logo1{
+  position: relative;
+  width: 6em;
+  height: 6em;
+}
+
+
+.skillsCont{
+  /*width: 60%;*/
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.startLines{
+  position: fixed;
+  height: 60em;
+  width: 103%;
+  left: -10px;
+  z-index: 0;
+
+}
+
+.tools{
+  font-size: 30px;
+  font-weight: 400;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:center;
+    /* inline-block space fix */
+}
+.onePlantVideo{
+  width: 1000px;
+  height: 600px;
+}
+h1,
+h4{
+  color: #4c6c9b;
+  font-family: 'Novecentosanswide-Normal', sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+p{
+  color: black;
+  font-weight: 300;
+  font-size: 120%;
+  text-align: center;
+}
+.placeHolder-img{
+  height: 30%;
+  width: 30%;
+  z-index: 1000;
+
+}
+
+.projectHeader{
+  padding-bottom: 0.5em;
+  font-weight: 100;
+}
+  .projectImgCont{
+    text-align: center;
+  }
+.projectParagraph{
+  padding-left: 30vw;
+  padding-right: 30vw;
+  padding-bottom: 30px;
+
+}
+.modalText{
+  padding-top: 100px;
+}
+  @media (min-width: 769px){
+    .modal-lg{
+      width: 100%;
+    }
+  }
+@media (min-width: 769px) and (max-width: 991px){
+p{
+    font-size: 15px;
+  }
+
+}
+@media (max-width: 768px) {
+.emptyCont{
+  position: fixed;
+  width: 100%;
+  height: 60em;
+  /*background: #36ac90; /* fallback for old browsers */
+  /*background: -webkit-radial-gradient(circle, #017ad0 40%,#000000 ,#000000); /* Chrome 10-25, Safari 5.1-6 */
+  /*background: radial-gradient(circle, #017ad0 ,#000000 40%, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url("../Images/mobile-bg.jpg");
+  background-size: 100% auto;
+  background-position: center;
+  z-index: -1000;
+  /*-webkit-filter: blur(7px); /* Safari 6.0 - 9.0 
+  filter: blur(7px);*/
+
+}
+
+  .onePlantBI{
+    background-image: url("../Images/plants1.jpg");
+    background-size: auto 100%;
+    background-position: right;
+  }
+  .roBI{
+    background-image: url("../Images/ro1.jpg");
+    background-size: auto 100%;
+    background-position: right;
+  }
+  .kronoxBI{
+    background-image: url("../Images/kronox1.jpg");
+    background-size: auto 100%;
+    background-position: right;
+  }
+  .modalText{
+    padding-top: 10px;
+  }
+  .background-ring{
+    visibility: hidden;
+  }
+  p{
+    text-align: justify;
+  }
+  .projectParagraph{
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .projectImgCont{
+    text-align: center;
+  }
+  .nav-header{
+    display: block;
+  }
+  p{
+    font-size: 15px;
+  }
+  .emptyCont{
+    height: 50em;
+  }
+  .siteCont{
+    top: 5em;
+    height: 50em;
+  }
+  .contact{
+    height:auto;
+  }
+  .aboutMe,
+  .mainSkill{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: auto;
+  }
+  .projects,
+  .project2{
+    padding-top: 200px;
+    padding-bottom: 0px;
+  }
+  .projectHeader{
+    padding-bottom: 0px;
+  }
+  .projectHeader2{
+    padding-bottom: 0px;
+  }
+  .placeHolder-img{
+    width: 40%;
+    height: 40%;
+  }
+  .startLines{
+    visibility: hidden;
+  }
+  .logo1{
+  height: 20%;
+  width: 20%;
+  }
+  #header-1{
+    font-size: 17vw;
+    top: 250px;
+    display: block;
+
+  }
+  #header-2{
+    font-size: 4vw;
+    top: 340px;
+    left: 0px;
+    right: 0px;
+    color: #21c4d2;
+  }
+  #header-1, #header-2{
+    position: fixed;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    z-index: -1;
+  }
+  .logo{
+  position: fixed;
+  height: 11em;
+  width: 11em;
+  z-index: -1;
+  left: 0px;
+  right: 0px;
+  top: 12em;
+  padding: none;
+  margin: 0 auto;
+  }
+  .background{
+    position: fixed;
+    height: 100%;
+
+    opacity: 0.2;
+  }
+.projectParagraph{
+  font-size: 10%;
+  padding-bottom: 30px;
+
+}
+.modalText{
+  text-align: left;
+  font-family: 'Novecentosanswide-Normal', sans-serif;
+}
+.logo{
+  visibility: hidden;
+}
+}
+
+a{
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+}
+.navbar-brand{
+  padding: 10px 10px;
+}

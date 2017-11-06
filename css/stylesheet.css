@@ -1,0 +1,351 @@
+body {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+@font-face {
+    font-family: 'Raleway', sans-serif;
+    src: url('Novecentosanswide-Normal-webfont.woff2') format('woff2'),
+         url('Novecentosanswide-Normal-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Raleway', sans-serif;
+    src: url('Novecentosanswide-Light-webfont.woff2') format('woff2'),
+         url('Novecentosanswide-Light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+hr{
+  color: black;
+}
+.KronoxPhoto{
+  width: 30%;
+  height: auto;
+  border-radius: 10px;
+}
+.aboutMe{
+  position: relative;
+  background: none;
+  border-bottom: none;
+  border-top: none;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  top: 45em;
+    
+}
+.goal-txt-m{
+    display: none;
+}
+.emptyCont{
+  position: fixed;
+  width: 100%;
+  height: 45em;
+  /*background: #36ac90; /* fallback for old browsers */
+  /*background: -webkit-radial-gradient(circle, #017ad0 40%,#000000 ,#000000); /* Chrome 10-25, Safari 5.1-6 */
+  /*background: radial-gradient(circle, #017ad0 ,#000000 40%, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url("../Images/background4.jpg");
+  background-size: 100% auto;
+  background-position: center;
+  z-index: -1000;
+  /*-webkit-filter: blur(7px); /* Safari 6.0 - 9.0 
+  filter: blur(7px);*/
+
+}
+.contact{
+  background: none; /* fallback for old browsers */
+    position: fixed;
+    top: 0px;
+}
+.contactLogo{
+  font-size: 10em;
+  color: black;
+  text-align: center;
+  z-index: 1000;
+}
+p{
+  font-family: 'Novecentosanswide-Light', sans-serif;
+}
+.logo{
+  visibility: visible;
+  position: fixed;
+  height: 3em;
+  width: 3em;
+  z-index: 100;
+  right: 20px;
+  top: 20px;
+  opacity: 0;
+
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:center;
+    /* inline-block space fix */
+}
+.onePlantVideo{
+  width: 1000px;
+  height: 600px;
+}
+h1,
+h4{
+  color: #4c6c9b;
+  font-family: 'Novecentosanswide-Normal', sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+p{
+  color: black;
+  font-weight: 300;
+  font-size: 120%;
+  text-align: center;
+}
+
+.projectHeader{
+  padding-bottom: 0.5em;
+  font-weight: 400;
+  font-size: 1em;
+}
+  .projectImgCont{
+    text-align: center;
+  }
+.projectParagraph{
+  padding-bottom: 70px;
+  padding-top: 70px;
+  
+  
+
+}
+.modalText{
+  padding-top: 100px;
+}
+a{
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+}
+.navbar-brand{
+  padding: 10px 10px;
+}
+.aboutMe-txt{
+        color: black;
+        width: auto;
+        padding-left: 30px;
+        padding-right: 30px;
+        line-height: 30px;
+        
+    }
+.img-hover{
+    transition: all .2s ease-in-out; 
+}
+.img-hover:hover{
+    
+    transform: scale(1.1);
+}
+.first-pos {
+    height: 55em;
+}
+
+.sections {
+    background: white;
+    padding-top: 300px;
+}
+
+.placeHolder-img{
+    width: 90%;
+    height: auto;
+    border-radius: 300px;
+}
+  @media (min-width: 769px){
+    .modal-lg{
+      width: 100%;
+    }
+  }
+@media (min-width: 769px) and (max-width: 991px){
+p{
+    font-size: 15px;
+  }
+
+}
+@media (max-width: 768px) {
+    .first-pos{
+        height: 49em;
+    }
+.emptyCont{
+  position: fixed;
+  width: 100%;
+  height: 60em;
+  /*background: #36ac90; /* fallback for old browsers */
+  /*background: -webkit-radial-gradient(circle, #017ad0 40%,#000000 ,#000000); /* Chrome 10-25, Safari 5.1-6 */
+  /*background: radial-gradient(circle, #017ad0 ,#000000 40%, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url("../Images/mobile-bg.jpg");
+  background-size: 100% auto;
+  background-position: top center;
+  z-index: -1000;
+  
+  /*-webkit-filter: blur(7px); /* Safari 6.0 - 9.0 
+  filter: blur(7px);*/
+
+}
+    .aboutMe-txt{
+        color: black;
+        width: auto;
+        padding-left: 5px;
+        padding-right: 5px;
+        line-height: 30px;
+        padding-top: 100px;
+        text-align: left;
+        
+    }
+    .goal-txt{
+       visibility: hidden;
+        
+    }
+    .goal-txt-m{
+        display: block;
+        visibility: visible;
+        height: auto;
+        width: 100%;
+        
+    }
+    .contact-logo{
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+    .KronoxPhoto{
+       width: 90%; 
+    }
+  .modalText{
+    padding-top: 10px;
+  }
+  .background-ring{
+    visibility: hidden;
+  }
+  p{
+    text-align: justify;
+  }
+  .projectParagraph{
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .projectImgCont{
+    text-align: center;
+  }
+  .nav-header{
+    display: block;
+  }
+  p{
+    font-size: 15px;
+  }
+  .emptyCont{
+    height: 50em;
+  }
+  .siteCont{
+    top: 5em;
+    height: 50em;
+  }
+   .emptyCont1{
+        top: 5em;
+        height: 50em;
+    }
+  .contact{
+    height:auto;
+    top: 0px;
+  }
+  .aboutMe,
+  .mainSkill{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: auto;
+  }
+  .projects,
+  .project2{
+    padding-top: 50px;
+    padding-bottom: 0px;
+    height: 93em;
+  }
+  .projectHeader{
+    padding-bottom: 0px;
+  }
+  .projectHeader2{
+    padding-bottom: 0px;
+  }
+  .placeHolder-img{
+    width: 100%;
+    height: auto;
+  }
+  .startLines{
+    visibility: hidden;
+  }
+  .logo1{
+  height: 20%;
+  width: 20%;
+  }
+  #header-1{
+    font-size: 17vw;
+    top: 250px;
+    display: block;
+
+  }
+  #header-2{
+    font-size: 4vw;
+    top: 340px;
+    left: 0px;
+    right: 0px;
+    color: #21c4d2;
+  }
+  #header-1, #header-2{
+    position: fixed;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    z-index: -1;
+  }
+  .logo{
+  position: fixed;
+  height: 11em;
+  width: 11em;
+  z-index: -1;
+  left: 0px;
+  right: 0px;
+  top: 12em;
+  padding: none;
+  margin: 0 auto;
+  }
+  .background{
+    position: fixed;
+    height: 100%;
+
+    opacity: 0.2;
+  }
+.projectParagraph{
+  font-size: 10%;
+  padding-bottom: 30px;
+
+}
+.modalText{
+  text-align: left;
+  font-family: 'Novecentosanswide-Normal', sans-serif;
+}
+.logo{
+  visibility: hidden;
+}
+    .sections{
+        padding-top: 10px;
+    }
+}
+
+
+
+
+
